@@ -1,0 +1,90 @@
+
+{
+  "schemaVersion": 1,
+  "deviceProperties": [
+    {
+      "id": 0, "name": "NVIDIA H20", "totalGlobalMem": 101502222336,
+      "computeMajor": 9, "computeMinor": 0,
+      "maxThreadsPerBlock": 1024, "maxThreadsPerMultiprocessor": 2048,
+      "regsPerBlock": 65536, "warpSize": 32,
+      "sharedMemPerBlock": 49152, "numSms": 78
+    , "regsPerMultiprocessor": 65536, "sharedMemPerBlockOptin": 232448, "sharedMemPerMultiprocessor": 233472
+    }
+  ],
+  "cupti_version": 22,
+  "cuda_runtime_version": 12040,
+  "record_shapes": 1,
+  "cuda_driver_version": 12040,
+  "profile_memory": 1,
+  "trace_id": "6A8ABABC33DD4C19B21A19A7D74B5B8C",
+  "traceEvents": [
+  {
+    "name": "process_name", "ph": "M", "ts": 6634000003817.429, "pid": 2992, "tid": 0,
+    "args": {
+      "name": "python3"
+    }
+  },
+  {
+    "name": "process_labels", "ph": "M", "ts": 6634000003817.429, "pid": 2992, "tid": 0,
+    "args": {
+      "labels": "CPU"
+    }
+  },
+  {
+    "name": "process_sort_index", "ph": "M", "ts": 6634000003817.429, "pid": 2992, "tid": 0,
+    "args": {
+      "sort_index": 2992
+    }
+  },
+  {
+    "name": "thread_name", "ph": "M", "ts": 6634000003817.429, "pid": 2992, "tid": 2992,
+    "args": {
+      "name": "thread 2992 (python3)"
+    }
+  },
+  {
+    "name": "thread_sort_index", "ph": "M", "ts": 6634000003817.429, "pid": 2992, "tid": 2992,
+    "args": {
+      "sort_index": 2992
+    }
+  },
+  {
+    "name": "thread_name", "ph": "M", "ts": 6634000003817.429, "pid": 2992, "tid": 2992,
+    "args": {
+      "name": "thread 2992 (python3)"
+    }
+  },
+  {
+    "name": "thread_sort_index", "ph": "M", "ts": 6634000003817.429, "pid": 2992, "tid": 2992,
+    "args": {
+      "sort_index": 2992
+    }
+  },
+  {
+    "ph": "X", "cat": "Trace", "ts": 6634000003760.277, "dur": 82031.830,
+    "pid": "Spans", "tid": "PyTorch Profiler",
+    "name": "PyTorch Profiler (0)",
+    "args": {
+      "Op count": 0
+    }
+  },
+  {
+    "name": "process_sort_index", "ph": "M", "ts": 6634000003760.277,
+    "pid": "Spans", "tid": 0,
+    "args": {
+      "sort_index": 536870912
+    }
+  },
+  {
+    "name": "Iteration Start: PyTorch Profiler", "ph": "i", "s": "g",
+    "pid": "Traces", "tid": "Trace PyTorch Profiler", "ts": 6634000003760.277
+  },
+  {
+    "name": "Record Window End", "ph": "i", "s": "g",
+    "pid": "", "tid": "", "ts": 6634000086980.210
+  }
+  ],
+  "traceName": "resnet50_profiling.json",
+  "displayTimeUnit": "ms",
+  "baseTimeNanoseconds": 1743521598000000000
+}
